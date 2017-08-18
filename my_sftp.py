@@ -1,8 +1,7 @@
 import paramiko
 import os
-
-'''pyhton for sftp !
-'''
+#SFTP 上传下载脚本
+#https://github.com/lzhtls/Python/edit/master/my_sftp.py
 def sftp_upload(host,port,username,password,local,remote):
     '''完成文件上传功能'''
     sf = paramiko.Transport((host,port))
